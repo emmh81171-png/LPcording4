@@ -214,6 +214,12 @@ li {
     }
 }
 
+@media (min-width: 768px) {
+    .hamburger-nav li:nth-child(3) a {
+        color: #168352;
+    }
+}
+
 
 
 /* よくあるご質問 */
@@ -392,7 +398,7 @@ li {
     .faq__box:nth-child(3) .faq__question-toptext {
         margin-top: .55rem;
     }
-}   
+}
 
 .faq__box:nth-child(4) .faq__question-toptext {
     margin-top: .4rem;
@@ -500,7 +506,7 @@ li {
     .faq__box:nth-child(3) .faq__question-bottomtext {
         padding-top: .5rem;
     }
-}   
+}
 
 .faq__box:nth-child(5) .faq__question-bottomtext {
     line-break: anywhere;
@@ -511,21 +517,21 @@ li {
         padding-top: .1rem;
         letter-spacing: .005em;
     }
-}   
+}
 
 @media (min-width: 768px) {
     .faq__box:nth-child(10) .faq__question-bottomtext {
         padding-top: .1rem;
         letter-spacing: .005em;
     }
-}   
+}
 
 @media (min-width: 768px) {
     .faq__box:nth-child(11) .faq__question-bottomtext {
         padding-top: .05rem;
         letter-spacing: .005em;
     }
-}   
+}
 
 .faq__bi {
     margin-left: auto;
@@ -641,7 +647,7 @@ li {
         padding-left: 1.9rem;
         padding-right: 1.7rem;
     }
-} 
+}
 
 .faq__box:nth-child(8) .faq__answer-text {
     line-height: 1.745;
@@ -732,7 +738,7 @@ li {
 
 @media (min-width: 768px) {
     .footer__text {
-        gap:2.5rem;
+        gap: 2.5rem;
         font-size: .9375rem;
     }
 }

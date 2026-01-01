@@ -29,8 +29,11 @@
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
     <!-- css -->
-    <link rel="stylesheet" href="/assets_faq/style/main.css">
+    <link rel="stylesheet" href="/assets_spec/style/main.css">
 
 </head>
 
@@ -54,10 +57,78 @@
     </header>
 
 
-    <!-- よくあるご質問 -->
-    <section class="">
+    <!-- スペック -->
+    <section class="spec">
+        <div class="container">
+
+            <div class="spec__cover">
+                <div class="spec__cover-content">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="image/spec_cover.pc.png">
+                        <img src="image/spec_cover.sp.png" alt="">
+                    </picture>
+                    <div class="spec__cover-text">
+                        <h2 class="section__title">価格・スペック</h2>
+                    </div>
+                    <div class="spec__link">
+                        <p class="spec__link-left">トップ</p>
+                        <i class="bi bi-chevron-right"></i>
+                        <p class="spec__link-right">価格・スペック</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
+    <!-- gallery -->
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__content">
+                <div class="gallery__title">
+                    <h2 class="gallery__text">ギャラリー</h2>
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(min-width:768px)" srcset="image/spec_gallery01.pc.png">
+                                <img src="image/spec_gallery01.sp.png" alt="">
+                            </picture>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="/assets_spec/image/spec_gallery02.pc.png" alt=""></a>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="/assets_spec/image/spec_gallery03.pc.png" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 特徴 -->
+    <picture>
+        <source media="(min-width:768px)" srcset="image/spec_feature01.pc.png">
+        <img src="image/spec_feature01.sp.png" alt="">
+    </picture>
+    <picture>
+        <source media="(min-width:768px)" srcset="image/spec_feature02.pc.png">
+        <img src="image/spec_feature02.sp.png" alt="">
+    </picture>
+    <picture>
+        <source media="(min-width:768px)" srcset="image/spec_feature03.pc.png">
+        <img src="image/spec_feature03.sp.png" alt="">
+    </picture>
     <!-- footer -->
 
     <footer class="footer">
@@ -73,6 +144,8 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
 
     <!-- animate -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
@@ -80,7 +153,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- css -->
-    <script src="/assets_faq/script/main.js"></script>
+    <script src="/assets_spec/script/main.js"></script>
 
 </body>
 

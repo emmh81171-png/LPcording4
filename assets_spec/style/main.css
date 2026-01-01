@@ -52,6 +52,37 @@ li {
     font-family: "Montserrat", sans-serif;
 }
 
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 /* ヘッダー */
 .header {
     position: relative;
@@ -211,5 +242,111 @@ li {
 @media (min-width: 768px) {
     .hamburger-nav li:nth-child(1) {
         display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger-nav li:nth-child(2) a {
+        color: #168352;
+    }
+}
+
+.spec__cover {
+    position: relative;
+    padding-top: 5.16rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .spec__cover {
+        padding-top: 6.5rem;
+    }
+}
+
+.spec__cover-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .spec__cover-content img {
+        object-fit: cover;
+        height: auto;
+        min-height: 100%;
+        object-position: top;
+        padding-top: 3.1rem;
+        padding-left: 5.25rem;
+        padding-right: 5.2rem;
+    }
+}
+
+.spec__cover-text {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .spec__cover-text {
+        position: relative;
+    }
+}
+
+.section__title {
+    padding-top: 1.4rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .section__title {
+        position: relative;
+        display: inline-block;
+        top: -7.1rem;
+        left: 5.1rem;
+        padding: 1.7rem 2.25rem 2.1rem 2.6rem;
+        font-size: 2.25rem;
+        border-radius: 0 2.5rem 0 1rem;
+        background-color: #fff;
+    }
+}
+
+.spec__link {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    gap: .23rem;
+    justify-content: flex-end;
+    padding-top: 1.35rem;
+    font-size: .75rem;
+}
+
+@media (min-width: 768px) {
+    .spec__link {
+        position: relative;
+        top: -7.2rem;
+        padding-right: 5.2rem;
+    }
+}
+
+/* gallery */
+
+.gallery__title::after {
+    top: 49%;
+    right: calc(38% + 2rem);
+    /* transform: rotate(90deg); */
+    position: absolute;
+    width: 5rem;
+    height: 1rem;
+    content: "";
+    background-color: #ddd;
+}
+
+@media (min-width: 768px) {
+    .gallery__title::after {
+        top: 50%;
+        right: calc(40% + 1.25rem);
+        width: 15rem;
+        height: 1rem;
     }
 }

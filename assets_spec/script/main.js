@@ -17,8 +17,9 @@ $(window).on('resize', function () {
 // スワイパー
 
 var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
-        dynamicBullets: true,
+        clickable: true,
     },
 });
