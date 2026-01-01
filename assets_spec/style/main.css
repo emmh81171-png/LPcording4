@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/* ページスタイル */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+@media (min-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* コンテナ */
+.container {
+    padding-inline: 1rem;
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 87.5rem;
+        margin: 0 auto;
+    }
+}
+
+/* 部品 */
+
+/* font */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ヘッダー */
+.header {
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    right: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .header {
+        max-width: 100%;
+        height: 5rem;
+        right: 0.5rem;
+        border-radius: 2.5rem;
+    }
+}
+
+/* ヘッダーロゴ */
+.header-logo {
+    margin-left: .5rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    line-height: 1.35;
+    width: 15rem;
+}
+
+@media (min-width: 768px) {
+    .header-logo {
+        width: 100%;
+        margin-top: 1.7rem;
+        margin-left: 6.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-logo img {
+        width: 16.5rem;
+    }
+}
+
+
+/* ハンバーガーボタン */
+.hamburger-button {
+    display: inline-block;
+    line-height: 0.85;
+    font-size: 2.2rem;
+    position: fixed;
+    top: .9rem;
+    right: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .hamburger-button {
+        display: none;
+    }
+}
+
+/* ハンバーバーガーメニューヘッダーナビ */
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    top: 3.95rem;
+    left: 1rem;
+    right: 1rem;
+    transition: opacity .3s linear;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 1.5rem;
+    background-color: #168352;
+}
+
+@media (min-width: 768px) {
+    .hamburger-menu {
+        top: 2rem;
+        right: 3.1rem;
+        opacity: 1;
+        visibility: visible;
+        background-color: transparent;
+    }
+}
+
+/* スライドイン後の位置 */
+
+.hamburger-menu-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (min-width: 768px) {
+    .hamburger-menu-active {
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger-menu.header-nav {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+/* ヘッダーナビリスト */
+.hamburger-nav {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .015em;
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+    row-gap: .5rem;
+    line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+    .hamburger-nav {
+        line-height: 2.7;
+        top: 0;
+        padding: .1rem 4rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        column-gap: 2.28rem;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        opacity: 1;
+        visibility: visible;
+        font-weight: bold;
+    }
+}
+
+
+.hamburger-nav a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+    .hamburger-nav a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger-nav li:nth-child(1) {
+        display: none;
+    }
+}
