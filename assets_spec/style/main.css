@@ -14,7 +14,7 @@ a {
 }
 
 img {
-    width:100%;
+    width: 100%;
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
@@ -86,14 +86,15 @@ li {
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: -0.125rem 0.1875rem;
+    margin: -.125rem .1875rem;
 }
 
 @media (min-width: 768px) {
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: .5rem 0.1875rem;
-}
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: .5rem .1875rem;
+    }
 }
 
 /* ボタン */
@@ -110,24 +111,23 @@ li {
 
 @media (min-width: 768px) {
     .button {
-        top:51.2%;
+        top: 51.2%;
     }
 }
 
-
 .button__link {
-    white-space:nowrap;
+    white-space: nowrap;
     border-radius: 2.5rem;
     color: #fff;
     border: 1px solid #fff;
     font-size: 1.25rem;
     font-weight: bold;
-    padding:1.4rem 7.3rem 1.5rem 7.3rem;
+    padding: 1.4rem 7.3rem 1.5rem 7.3rem;
 }
 
 @media (min-width: 768px) {
     .button__link {
-    padding:1.5rem 7.3rem 1.5rem 7.3rem;
+        padding: 1.5rem 7.3rem 1.5rem 7.3rem;
     }
 }
 
@@ -136,8 +136,8 @@ li {
     position: relative;
     z-index: 10;
     position: fixed;
-    right: 0.5rem;
-    left: 0.5rem;
+    right: .5rem;
+    left: .5rem;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -147,15 +147,14 @@ li {
     .header {
         max-width: 100%;
         height: 5rem;
-        right: 0.5rem;
-        border-radius: 2.5rem;
+        right: .5rem;
     }
 }
 
 /* ヘッダーロゴ */
 .header-logo {
     margin-left: .5rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: .6rem;
     display: flex;
     line-height: 1.35;
     width: 15rem;
@@ -175,11 +174,10 @@ li {
     }
 }
 
-
 /* ハンバーガーボタン */
 .hamburger-button {
     display: inline-block;
-    line-height: 0.85;
+    line-height: .85;
     font-size: 2.2rem;
     position: fixed;
     top: .9rem;
@@ -272,7 +270,6 @@ li {
     }
 }
 
-
 .hamburger-nav a {
     font-weight: bold;
     color: #fff;
@@ -298,6 +295,8 @@ li {
         color: #168352;
     }
 }
+
+/* スペック */
 
 .spec__cover {
     position: relative;
@@ -400,32 +399,32 @@ li {
 
 @media (min-width: 768px) {
     .section__subtitle {
-        top:-5.7rem;
+        top: -5.7rem;
     }
 }
 
 .section__subtitle {
-  position: relative;
+    position: relative;
 }
 
-.section__subtitle::after{
-  content:"";
-  position:absolute;
-    top:72.5%;
-  left:0;
-  right:0;
-  height:0.2rem;
-  background: linear-gradient(to right,
-    #168352 0%,
-    #168352 14%,
-    #ddd 14%,
-    #ddd 100%
-  );
+.section__subtitle::after {
+    content: "";
+    position: absolute;
+    top: 72.5%;
+    left: 0;
+    right: 0;
+    height: .2rem;
+    background: linear-gradient(to right,
+            #168352 0%,
+            #168352 14%,
+            #ddd 14%,
+            #ddd 100%);
 }
+
 @media (min-width: 768px) {
     .section__subtitle::after {
         top: 85.7%;
-        height: 0.27rem;
+        height: .27rem;
         background: linear-gradient(to right,
                 #168352 0%,
                 #168352 12.5%,
@@ -439,10 +438,6 @@ li {
         transform: translateY(-4.4rem);
     }
 }
-
-.swiper-wrapper {}
-
-
 
 .section__subtext {
     font-size: 1.375rem;
@@ -458,22 +453,17 @@ li {
 /* 特長 */
 
 @media (min-width: 768px) {
-    .feature .container {
-    }
-}
-
-@media (min-width: 768px) {
     .feature .section__subtitle {
         width: 100%;
         max-width: 50rem;
-        margin: 0 auto;        
+        margin: 0 auto;
     }
 }
 
 .feature .section__subtitle::after {
     position: absolute;
     top: 69%;
-    height: 0.2rem;
+    height: .2rem;
     content: "";
     background: linear-gradient(to right,
             #168352 0%,
@@ -486,7 +476,7 @@ li {
 @media (min-width: 768px) {
     .feature .section__subtitle::after {
         top: 85%;
-        height: 0.26rem;
+        height: .26rem;
         background: linear-gradient(to right,
                 #168352 0%,
                 #168352 12.5%,
@@ -502,7 +492,7 @@ li {
 
 @media (min-width: 768px) {
     .feature .section__subtext {
-        padding-top:2.2rem;
+        padding-top: 2.2rem;
     }
 }
 
@@ -520,7 +510,7 @@ li {
         flex-direction: row;
         justify-content: space-between;
         column-gap: 2rem;
-        transform:translateY(-4.8rem);
+        transform: translateY(-4.8rem);
     }
 }
 
@@ -530,9 +520,9 @@ li {
         max-width: 15.5rem;
     }
 }
+
 @media (min-width: 768px) {
-    .feature__item img{
-    }
+    .feature__item img {}
 }
 
 .feature__item p {
@@ -545,7 +535,7 @@ li {
 
 @media (min-width: 768px) {
     .feature__item p {
-        line-height:1.75;
+        line-height: 1.75;
         font-size: 18px;
     }
 }
@@ -561,9 +551,9 @@ li {
 }
 
 @media (min-width: 768px) {
-.feature__item:nth-child(3) p {
-    line-height:1.74;   
-}
+    .feature__item:nth-child(3) p {
+        line-height: 1.74;
+    }
 }
 
 /* メーカー希望小売価格 */
@@ -582,8 +572,8 @@ li {
 
 @media (min-width: 768px) {
     .retail__price .section__subtitle {
-        top:-3.4rem;
-        left:-1rem;
+        top: -3.4rem;
+        left: -1rem;
     }
 }
 
@@ -595,14 +585,14 @@ li {
 @media (min-width: 768px) {
     .retail__price .section__subtext {
         padding-top: 0;
-        padding-left:2rem;
+        padding-left: 2rem;
     }
 }
 
 .retail__price .section__subtitle::after {
     position: absolute;
     top: 86.5%;
-    height: 0.2rem;
+    height: .2rem;
     content: "";
     background: linear-gradient(to right,
             #168352 0%,
@@ -614,8 +604,8 @@ li {
 @media (min-width: 768px) {
     .retail__price .section__subtitle::after {
         top: 98%;
-        left:3.8%;
-        height: 0.2rem;
+        left: 3.8%;
+        height: .2rem;
         background: linear-gradient(to right,
                 #168352 0%,
                 #168352 12.5%,
@@ -626,7 +616,7 @@ li {
 
 @media (min-width: 768px) {
     .retail__price-content {
-        transform:translate(-1rem, -1.55rem);
+        transform: translate(-1rem, -1.55rem);
     }
 }
 
@@ -640,17 +630,13 @@ li {
 
 @media (min-width: 768px) {
     .retail__price-text {
-        padding-top:0;
-        padding-left:2rem;
+        padding-top: 0;
+        padding-left: 2rem;
     }
 }
 
 .retail__price-tax {
     font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-    .retail__price-tax {}
 }
 
 /* スペック表 */
@@ -668,25 +654,25 @@ li {
 }
 
 .spec__table .section__subtext {
-    letter-spacing:.02em;
+    letter-spacing: .02em;
     padding-top: 1.46rem;
-    padding-left:.2rem;
+    padding-left: .2rem;
     transform: translateX(-.07rem);
 }
 
 @media (min-width: 768px) {
     .spec__table .section__subtext {
         padding-top: 6.15rem;
-        padding-left:1rem;
-        transform:translateX(-1rem);
+        padding-left: 1rem;
+        transform: translateX(-1rem);
     }
 }
 
 .spec__table .section__subtitle::after {
     position: absolute;
     top: 78.2%;
-    left:1%;
-    height: 0.2rem;
+    left: 1%;
+    height: .2rem;
     content: "";
     background: linear-gradient(to right,
             #168352 0%,
@@ -698,8 +684,8 @@ li {
 @media (min-width: 768px) {
     .spec__table .section__subtitle::after {
         top: 92.2%;
-        left:-.1%;
-        height: 0.27rem;
+        left: -.1%;
+        height: .27rem;
         background: linear-gradient(to right,
                 #168352 0%,
                 #168352 12.5%,
@@ -710,21 +696,21 @@ li {
 
 @media (min-width: 768px) {
     .section__smalltitle {
-        transform:translate(1rem, -4.25rem);
+        transform: translate(1rem, -4.25rem);
     }
 }
 
 .section__smalltext {
     position: relative;
     padding-left: 1.3rem;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
     font-size: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .section__smalltext {
-        padding-left:2rem;
-        font-size:1.5rem;
+        padding-left: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -754,32 +740,33 @@ li {
 
 .spec__table-content {
     width: 100%;
-    transform:translate(.02rem, .04rem);
+    transform: translate(.02rem, .04rem);
     border-collapse: collapse;
     border: 1px solid #e5e5e5;
 }
 
 @media (min-width: 768px) {
     .spec__table-content {
-        width:46.2rem;
-        transform:translate(1.75rem,-3.7rem);
+        width: 46.2rem;
+        transform: translate(1.75rem, -3.7rem);
     }
 }
 
 .spec__table-content th,
 .spec__table-content td {
     border: 1px solid #e5e5e5;
-    padding: 0.4rem 1.3rem .45rem 1.25rem;
+    padding: .4rem 1.3rem .45rem 1.25rem;
     text-align: left;
     vertical-align: top;
 }
 
 @media (min-width: 768px) {
+
     .spec__table-content th,
     .spec__table-content td {
-    padding: 1.15rem 1.5rem 1.15rem 1.25rem;
+        padding: 1.15rem 1.5rem 1.15rem 1.25rem;
 
-}
+    }
 }
 
 .spec__table-content tr {
@@ -799,6 +786,7 @@ li {
 }
 
 @media (min-width:768px) {
+
     .spec__table-content th,
     .spec__table-content td {
         display: table-cell;
@@ -827,178 +815,178 @@ li {
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(1) th {
-        padding-top:1.25rem;
-        padding-left:1.25rem;
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
     }
-}   
+}
 
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(1) td {
-        padding-top:1.3rem;
-        padding-left:1.35rem;
+        padding-top: 1.3rem;
+        padding-left: 1.35rem;
     }
-}   
+}
 
 
 .spec__table-content tr:nth-child(2) th {
-    padding-top:.35rem;
-    padding-left:1.25rem;
+    padding-top: .35rem;
+    padding-left: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(2) th {
-        padding-top:1.2rem;
-        padding-left:1.25rem;
+        padding-top: 1.2rem;
+        padding-left: 1.25rem;
     }
-}   
+}
 
 .spec__table-content tr:nth-child(2) td {
-    padding-top:.4rem;
-    padding-left:1.25rem;
+    padding-top: .4rem;
+    padding-left: 1.25rem;
 }
 
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(2) td {
-        padding-top:1.2rem;
-        padding-left:1.35rem;
+        padding-top: 1.2rem;
+        padding-left: 1.35rem;
     }
 }
 
 .spec__table-content tr:nth-child(3) th {
-    padding-top:.35rem;
-    padding-left:1.25rem;
+    padding-top: .35rem;
+    padding-left: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(3) th {
-        padding-top:1.25rem;
-        padding-left:1.25rem;
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
     }
 }
 
 .spec__table-content tr:nth-child(3) td {
-    padding-top:.35rem;
-    padding-left:1.3rem;
+    padding-top: .35rem;
+    padding-left: 1.3rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(3) td {
-        padding-top:1.25rem;
-        padding-left:1.3rem;
+        padding-top: 1.25rem;
+        padding-left: 1.3rem;
     }
 }
 
 .spec__table-content tr:nth-child(4) th {
-    padding-top:.35rem;
-    padding-left:1.25rem;
+    padding-top: .35rem;
+    padding-left: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(4) th {
-        padding-top:1.2rem;
-        padding-left:1.25rem;
+        padding-top: 1.2rem;
+        padding-left: 1.25rem;
     }
 }
 
 .spec__table-content tr:nth-child(4) td {
-    padding-top:.35rem;
-    padding-left:1.17rem;
+    padding-top: .35rem;
+    padding-left: 1.17rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(4) td {
-        padding-top:1.2rem;
-        padding-left:1.35rem;
+        padding-top: 1.2rem;
+        padding-left: 1.35rem;
     }
 }
 
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(5) th {
-        padding-top:1.25rem;
-        padding-left:1.25rem;
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
     }
 }
 
 .spec__table-content tr:nth-child(5) td {
-    padding-top:.35rem;
-    padding-left:1.17rem;
+    padding-top: .35rem;
+    padding-left: 1.17rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(5) td {
-        padding-top:1.25rem;
-        padding-left:1.3rem;
+        padding-top: 1.25rem;
+        padding-left: 1.3rem;
     }
 }
 
 .spec__table-content tr:nth-child(6) th {
-    padding-top:.35rem;
-    padding-left:1.25rem;
+    padding-top: .35rem;
+    padding-left: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(6) th {
-        padding-top:1.2rem;
-        padding-left:1.25rem;
+        padding-top: 1.2rem;
+        padding-left: 1.25rem;
     }
 }
 
 .spec__table-content tr:nth-child(6) td {
-    padding-top:.35rem;
-    padding-left:1.17rem;
+    padding-top: .35rem;
+    padding-left: 1.17rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(6) td {
-        padding-top:1.2rem;
-        padding-left:1.35rem;
+        padding-top: 1.2rem;
+        padding-left: 1.35rem;
     }
 }
 
 .spec__table-content tr:nth-child(7) th {
-    padding-top:.4rem;
-    padding-left:1.25rem;
-    padding-bottom:.47rem;
+    padding-top: .4rem;
+    padding-left: 1.25rem;
+    padding-bottom: .47rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(7) th {
-        padding-top:1.25rem;
-        padding-left:1.25rem;
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
     }
 }
 
 .spec__table-content tr:nth-child(7) td {
-    padding-top:.35rem;
-    padding-left:1.25rem;
+    padding-top: .35rem;
+    padding-left: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(7) td {
-        padding-top:1.25rem;
-        padding-left:1.3rem;
+        padding-top: 1.25rem;
+        padding-left: 1.3rem;
     }
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(8) th {
-        padding-top:1.1rem;
-        padding-left:1.2rem;
+        padding-top: 1.1rem;
+        padding-left: 1.2rem;
     }
 }
 
 .spec__table-content tr:nth-child(8) td {
-    padding-top:.31rem;
-    padding-right:1.1rem;
+    padding-top: .31rem;
+    padding-right: 1.1rem;
 }
 
 @media (min-width: 768px) {
     .spec__table-content tr:nth-child(8) td {
-        padding-top:1.1rem;
-        padding-left:1.3rem;
+        padding-top: 1.1rem;
+        padding-left: 1.3rem;
     }
 }
 
@@ -1008,17 +996,17 @@ li {
     position: relative;
     width: 100%;
     height: 100%;
-    padding-top:4.05rem;
+    padding-top: 4.05rem;
 }
 
 @media (min-width: 768px) {
-.footer__cover {
-padding-top:.86rem;    
-}
+    .footer__cover {
+        padding-top: .86rem;
+    }
 }
 
 
-.footer__img {
+.footer__cover-img {
     position: relative;
     z-index: 1;
 }
