@@ -86,8 +86,8 @@
     <section class="gallery">
         <div class="container">
             <div class="gallery__content">
-                <div class="gallery__title">
-                    <h2 class="gallery__text">ギャラリー</h2>
+                <div class="section__subtitle">
+                    <h2 class="section__subtext">ギャラリー</h2>
                 </div>
 
                 <div class="swiper mySwiper">
@@ -116,19 +116,114 @@
 
     </section>
 
-    <!-- 特徴 -->
-    <picture>
-        <source media="(min-width:768px)" srcset="image/spec_feature01.pc.png">
-        <img src="image/spec_feature01.sp.png" alt="">
-    </picture>
-    <picture>
-        <source media="(min-width:768px)" srcset="image/spec_feature02.pc.png">
-        <img src="image/spec_feature02.sp.png" alt="">
-    </picture>
-    <picture>
-        <source media="(min-width:768px)" srcset="image/spec_feature03.pc.png">
-        <img src="image/spec_feature03.sp.png" alt="">
-    </picture>
+    <!-- 特長 -->
+    <section class="feature">
+        <div class="container">
+            <div class="section__subtitle">
+                <h2 class="section__subtext">特長</h2>
+            </div>
+            <div class="feature__flex">
+                <div class="feature__item">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="image/spec_feature01.pc.png">
+                        <img src="image/spec_feature01.sp.png" alt="">
+                    </picture>
+                    <p>自動操縦が可能で、短時間で大量の農作物を監視、収穫、播種、散布などの作業ができます。</p>
+                </div>
+
+                <div class="feature__item">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="image/spec_feature02.pc.png">
+                        <img src="image/spec_feature02.sp.png" alt="">
+                    </picture>
+                    <p>高精度のカメラやセンサーを搭載しており、正確な土壌・作物の情報を収集でき、水や肥料などの資源を適切に配分できます。</p>
+                </div>
+                
+                <div class="feature__item">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="image/spec_feature03.pc.png">
+                        <img src="image/spec_feature03.sp.png" alt="">
+                    </picture>
+                    <p>必要な場所にだけ肥料や農薬を散布することができます。これにより、農薬や肥料の過剰使用が抑えられ、環境負荷やコスト削減に繋がります。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メーカー希望小売価格 -->
+
+    <section class="retail__price">
+        <div class="container">
+            <div class="section__subtitle">
+                <h2 class="section__subtext">メーカー希望小売価格</h2>
+            </div>
+            <div class="retail__price-content">
+                <p class="retail__price-text montserrat">¥550,000<span class="retail__price-tax">（税込）</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- スペック表 -->
+    <section class="spec__table">
+        <div class="container">
+            <div class="section__subtitle">
+                <h2 class="section__subtext">スペック</h2>
+            </div>
+            <div class="section__smalltitle">
+                <h3 class="section__smalltext">機体</h3>
+            </div>
+            <table class="spec__table-content">
+                <tr>
+                    <th>ドローン名</th>
+                    <td>アグリ・ファルコン</td>
+                </tr>
+                <tr>
+                    <th>製品番号</th>
+                    <td>AGF-100</td>
+                </tr>
+                <tr>
+                    <th>飛行時間</th>
+                    <td>60 分</td>
+                </tr>
+                <tr>
+                    <th>最大積載量</th>
+                    <td>5 kg</td>
+                </tr>
+                <tr>
+                    <th>操作距離</th>
+                    <td>3 km</td>
+                </tr>
+                <tr>
+                    <th>機体重量</th>
+                    <td>8 kg</td>
+                </tr>
+                <tr>
+                    <th>機体寸法</th>
+                    <td>150 x 150 x 40 cm</td>
+                </tr>
+                <tr>
+                    <th>機能・特徴</th>
+                    <td>自動操縦、植物生育モニタリング、農薬散布</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+<!-- footer-cover -->
+
+<section class="footer__cover">
+    <div class="footer__img">
+        <picture>
+            <source media="(min-width:768px)" srcset="image/spec_footer.pc.png">
+            <img src="image/spec_footer.sp.png" alt="">
+        </picture>
+    </div>
+    
+    <div class="button">
+        <a href="/contact" class="button__link">お問い合わせ</a>        
+    </div>
+</section>
+    
     <!-- footer -->
 
     <footer class="footer">
