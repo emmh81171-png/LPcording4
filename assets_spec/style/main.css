@@ -131,6 +131,13 @@ li {
     }
 }
 
+@media (min-width: 768px) {
+    .button__link:hover {
+        color: #168352;
+        background-color: #fff;
+    }
+}
+
 /* ヘッダー */
 .header {
     position: relative;
@@ -600,7 +607,7 @@ li {
     .retail__price .section__subtitle::after {
         top: 98%;
         left: 3.8%;
-        height: .2rem;
+        height: .3rem;
         background: linear-gradient(to right,
                 #168352 0%,
                 #168352 12.5%,
@@ -780,6 +787,7 @@ li {
 }
 
 @media (min-width:768px) {
+
     .spec__table-content th,
     .spec__table-content td {
         display: table-cell;
