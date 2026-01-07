@@ -300,7 +300,7 @@ li {
 .faq__box-flex {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.3rem;
     padding-top: 2.4rem;
 }
 
@@ -312,22 +312,34 @@ li {
         margin: 0 auto;
         padding-top: 0;
         top: -3.35rem;
+        gap:1.5rem;
     }
 }
 
 .faq__box {
     padding-top: 1rem;
+    padding-bottom:1rem;
     border: 1px solid #ccc;
     border-radius: 1rem;
 }
 
 @media (min-width: 768px) {
-    .faq__box {}
+    .faq__box {
+        padding-bottom:.7rem;
+    }
 }
+
+@media (min-width: 768px) {
+    .faq__box:nth-child(3) {
+        padding-bottom:1rem;
+    }
+}
+
 
 .faq__top {
     display: flex;
 }
+
 
 .faq__icon {
     padding-top: .2rem;
@@ -390,14 +402,21 @@ li {
 
 @media (min-width: 768px) {
     .faq__box:nth-child(3) .faq__question-toptext {
-        margin-top: .55rem;
+        margin-top: .4rem;
     }
 }
 
 .faq__box:nth-child(4) .faq__question-toptext {
-    margin-top: .4rem;
+    margin-top: .55rem;
     padding-bottom: .3rem;
 }
+
+@media (min-width: 768px) {
+    .faq__box:nth-child(4) .faq__question-toptext {
+        margin-top: .4rem;
+    }
+}
+
 
 .faq__box:nth-child(5) .faq__question-toptext {
     margin-top: .4rem;
@@ -408,48 +427,68 @@ li {
 
 @media (min-width: 768px) {
     .faq__box:nth-child(5) .faq__question-toptext {
-        margin-top: .55rem;
+        margin-top: .45rem;
     }
 }
 
 .faq__box:nth-child(6) .faq__question-toptext {
-    margin-top: .4rem;
+    margin-top: .6rem;
     padding-left: 1rem;
     padding-right: 1.05rem;
+}
+
+@media (min-width: 768px) {
+    .faq__box:nth-child(6) .faq__question-toptext {
+        margin-top: .45rem;
+    }
 }
 
 .faq__box:nth-child(7) .faq__question-toptext {
-    margin-top: .4rem;
+    margin-top: .5rem;
     padding-left: 1rem;
     padding-right: 1.05rem;
 }
+
+@media (min-width: 768px) {
+    .faq__box:nth-child(7) .faq__question-toptext {
+        margin-top: .45rem;
+    }
+}
+
 
 .faq__box:nth-child(8) .faq__question-toptext {
-    margin-top: .4rem;
+    margin-top: .5rem;
     padding-left: 1rem;
     padding-right: 1.05rem;
 }
 
+@media (min-width: 768px) {
+    .faq__box:nth-child(8) .faq__question-toptext {
+        margin-top: .35rem;
+    }
+}
+
+
 .faq__box:nth-child(9) .faq__question-toptext {
-    margin-top: .4rem;
+    margin-top: .3rem;
     padding-left: 1rem;
     padding-right: 1.05rem;
 }
 
 .faq__box:nth-child(10) .faq__question-toptext {
-    margin-top: .3rem;
+    margin-top: .4rem;
     padding-left: 1rem;
     padding-right: 1.05rem;
 }
 
 @media (min-width: 768px) {
     .faq__box:nth-child(10) .faq__question-toptext {
-        margin-top: .45rem;
+        margin-top: .3rem;
     }
 }
 
 .faq__box:nth-child(11) .faq__question-toptext {
-    margin-top: .3rem;
+    margin-top: .4rem;
     padding-left: .7rem;
     padding-right: .65rem;
     padding-bottom: .3rem;
@@ -457,7 +496,7 @@ li {
 
 @media (min-width: 768px) {
     .faq__box:nth-child(11) .faq__question-toptext {
-        margin-top: .4rem;
+        margin-top: .3rem;
     }
 }
 
@@ -508,15 +547,27 @@ li {
 
 @media (min-width: 768px) {
     .faq__box:nth-child(7) .faq__question-bottomtext {
-        padding-top: .1rem;
         letter-spacing: .005em;
     }
 }
 
 @media (min-width: 768px) {
+    .faq__box:nth-child(8) .faq__question-bottomtext {
+        padding-top:.1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .faq__box:nth-child(9) .faq__question-bottomtext {
+        padding-top:.1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
     .faq__box:nth-child(10) .faq__question-bottomtext {
-        padding-top: .1rem;
         letter-spacing: .005em;
+        padding-top:.1rem;
     }
 }
 
@@ -544,9 +595,13 @@ li {
     font-size: 2.5rem;
 }
 
+.faq__answer {
+    display: none;
+}
+
 .faq__answer-text {
     line-height: 1.7;
-    padding: .3rem 1.1rem 1.1rem 1.5rem;
+    padding: .3rem 1.1rem 0rem 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -569,7 +624,6 @@ li {
     line-height: 1.74;
     letter-spacing: .002em;
     padding-top: .2rem;
-    padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
