@@ -373,6 +373,17 @@ li {
     justify-content: flex-end;
     padding-top: 1.35rem;
     font-size: .75rem;
+    list-style: none;
+}
+
+.spec__link li {
+    display: flex;
+    align-items: center;
+}
+
+.spec__link a {
+    color: inherit;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
