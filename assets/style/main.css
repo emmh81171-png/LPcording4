@@ -1011,7 +1011,7 @@ li {
 .news__label {
     flex-shrink: 0;
     transform: translateY(.11rem);
-    padding: .3rem 2.57rem;
+    padding: .3rem 1rem;
     border-radius: .25rem;
     background: #4a3725;
     color: #fff;
@@ -1025,9 +1025,9 @@ li {
 }
 
 .news__item:nth-child(2) .news__label,
-.news__item:nth-child(3) .news__label,
-.news__item:nth-child(5) .news__label {
-    padding: .33rem 1rem;
+.news__item:nth-child(5) .news__label,
+.news__item:nth-child(6) .news__label {
+    padding: .3rem 2.55rem;
 
 }
 
